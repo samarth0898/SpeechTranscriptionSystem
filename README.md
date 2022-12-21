@@ -37,5 +37,5 @@ adjacent pairs of inputs before running a conventional Bi-LSTM on the reduced-le
 an input vector sequence X0, X1, X2, X3, . . . XN−1, the pBLSTM first concatenates adjacent pairs of vectors
 as [X0, X1], [X2, X3], . . . [XN−2, XN−1], and then computes a regular BiLSTM on the reshaped input.
 
--) Initial Bi-LSTM 
--) 3x Pyramidal Bi-LSTM 
+- Initial Bi-LSTM 
+- 3x Pyramidal Bi-LSTM 
