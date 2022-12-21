@@ -1,4 +1,4 @@
-## Sequence2Sequence Speech Transcription System | ASR System 
+## Sequence2Sequence Speech Transcription System 
 
 This repo contains a sequence to sequence speech transcription system based on an encoder, decoder and attention mechanism. The English alphabets are learnt from the input mel frequency cepstral coefficients. (need to be completed)
 
@@ -20,6 +20,8 @@ Training regimes
 - Teacher forcing mechanism 
 - pack-padding variable length data 
 - 
+
+
 
 ### Description of the input 
 40-dimensional log-mel filter bank features were computed every 10ms and used as the acoustic inputs to the listener.
